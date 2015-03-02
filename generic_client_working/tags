@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+C	Makefile	/^C=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-I.$/;"	m
+command	client.h	/^char down_file[20], down_read[10000], command[30], file[30], hostname[30];$/;"	v
+control_fd	client.h	/^int data_fd, control_fd;$/;"	v
+convert_port	cli_app.c	/^int convert_port(char* buf)$/;"	f
+data_fd	client.h	/^int data_fd, control_fd;$/;"	v
+display_list	cli_app.c	/^int display_list()$/;"	f
+down_file	client.h	/^char down_file[20], down_read[10000], command[30], file[30], hostname[30];$/;"	v
+down_read	client.h	/^char down_file[20], down_read[10000], command[30], file[30], hostname[30];$/;"	v
+download_file	cli_app.c	/^int download_file(int bytes)$/;"	f
+file	client.h	/^char down_file[20], down_read[10000], command[30], file[30], hostname[30];$/;"	v
+hostname	client.h	/^char down_file[20], down_read[10000], command[30], file[30], hostname[30];$/;"	v
+main	client.c	/^int main(int argc, char**argv)$/;"	f
+main	test.c	/^int main()$/;"	f
+n	client.h	/^int rcvd_val,n;$/;"	v
+port	client.h	/^int port;$/;"	v
+rcvd_val	client.h	/^int rcvd_val,n;$/;"	v
+recv_data	cli_app.c	/^void recv_data(int fd)$/;"	f
+write_command	cli_app.c	/^int write_command()$/;"	f
